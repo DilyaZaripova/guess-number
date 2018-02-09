@@ -12,7 +12,7 @@ var resetButton;
 
 function checkGuess() {
     var userGuess = Number(guessField.value);
-    if (guessField.value !== '' && !isNaN(guessField.value) && guessField.value<=100&& guessField.value>=0 ){
+    if (guessField.value !== '' && !isNaN(guessField.value) && guessField.value<=100 && guessField.value>=0 ){
         if (guessCount === 1) {
         guesses.textContent = 'Previous guesses: ';
         }
